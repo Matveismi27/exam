@@ -1,0 +1,204 @@
+/* общие стили */
+.container {
+	max-width: 1600px;
+	margin: 0px auto;
+	padding: 0 20px;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+form{
+    padding: 10px;
+    background-color: #adc9e9;
+    box-shadow: rgba(196, 196, 196, 0.8)  6px 6px 10px;
+}
+.grid-container{
+    display: grid;
+    gap: 50px 50px;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #da8e81;
+}
+.grid-item{
+    background-color: rgba(255, 218, 183, 0.8);
+}
+img{
+    max-width: 300px;
+    max-height: 200px;
+}
+header {
+	background-color: #aa82cf;
+	color: white;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+}
+
+nav {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	padding: 20px;
+}
+
+footer {
+	background-color: #333;
+	padding: 10px;
+	text-align: center;
+}
+
+footer p {
+	color: white;	
+}
+header h1 {
+	color: white;		
+}
+
+/*-------------------------------ШРИФТЫ--------------------------------------------*/
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: local("Proxima Nova Bold"),
+		url(assets/fonts/proximanova_bold.otf)
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: local("Proxima Nova"),
+		url(assets/fonts/proximanova_regular.ttf)
+}
+
+/*---------------------------------ОБЩИЕ ДЛЯ СТРАНИЦ-------------------------------*/
+
+
+html {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: inside;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 32px;
+	margin: 5px 0px;
+}
+
+p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: #292D32;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Proxima Nova';
+	font-size: 18px;
+	color: #292D32;
+	overflow-x: hidden;
+	position: relative;
+	line-height: 155%;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 51px;
+	color: #292D32;
+	margin: 50px 0px;
+}
+
+h2 {
+	padding: 0;
+	margin: 0;
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 51px;
+	color: #292D32;
+	margin: 50px 0px;
+}
+
+h3 {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 34px;
+	color: #292D32;
+}
+
+main {
+	min-height: 100vh;
+}
+
+.container {
+	max-width: 1684px;
+	margin: 0px auto;
+	padding: 0 20px;
+}
+
+.btn {
+	border: 1px solid #292D32;
+	padding: 21px 50px;
+	line-height: 28px;
+	color: #292D32;
+	width: fit-content;
+	background-color: transparent;
+	font-size: 18px;
+	cursor: pointer;
+	transition: .6s;
+}
+
+.btn:hover{
+	background-color: #2B72B6;
+	border: 1px solid #2B72B6;
+	color: #fff;
+}
+
