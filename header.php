@@ -7,6 +7,7 @@
 <?php
     if (@$_GET["logout"]=="logout"){
         setcookie('is_login', 'false');
+        unset($_COOKIE['user_id']);
     }
 ?>
 <nav>
